@@ -1,0 +1,81 @@
+canonical_identifier: bkk:krp/KR6c0039/v1
+canonical_location: https://kanripo.org/bkk/KR6c0039/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛般若經贊述
+  identifiers:
+    alt_id:
+    - T33n1700
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T33/T33n1700.xml
+    old_id: T33n1700
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 原
+  label: 原
+  source_xml_id: wit1
+- short: 甲
+  label: 甲
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0039_000.yaml, hash: 'sha256:d71283a61f4f66efe60a33e27c4f2f74e636a22fb1153b8d0acffa7a8c9800bb'}
+  - {seq: 1, filename: KR6c0039_001.yaml, hash: 'sha256:2c8dfb2acd656a238ef8efc13be1363912a4f327602f2cd749a32c3f01671896'}
+  - {seq: 2, filename: KR6c0039_002.yaml, hash: 'sha256:401d09286796a176e39d57552a1252a5e991ac4949029b2674064373003f67fc'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6c0039_000.markers.yaml, hash: 'sha256:29b33ee94be088a480e4ce49e52a24229f209525296900a07dba8e2055c55f61'}
+  - {seq: 1, role: markers, filename: assets/KR6c0039_001.markers.yaml, hash: 'sha256:171063470710d55ea877ef7e0a3fe8158f9356f5714dffe7da63afea7e84422c'}
+  - {seq: 2, role: markers, filename: assets/KR6c0039_002.markers.yaml, hash: 'sha256:24c88fadc147192f2a36274e55c7db73836c321248e2d0721e8de7563ea99036'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR6c0039_T_000-mulu-1
+    span:
+    - front
+    - 0
+    - 0
+  label: 刊行金剛般若經贊述序
+  type: mulu
+  level: 1
+- ref:
+    seq: 0
+    marker_id: KR6c0039_T_000-mulu-2
+    span:
+    - front
+    - 392
+    - 392
+  label: 刻金剛般若經贊述序
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6c0039_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 21861
+  label: 金剛般若經贊述卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0039_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 20005
+  label: 金剛般若經贊述卷下
+  type: juan
+  level: 1
+hash: sha256:5d014baf3baa4bf8d3dfa6803cc08e78805d671594cf618933991f8dd9456715
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
