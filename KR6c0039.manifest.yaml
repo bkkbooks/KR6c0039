@@ -27,11 +27,11 @@ editions:
 - short: T
 assets:
   parts:
-  - {seq: 0, filename: KR6c0039_000.yaml, hash: 'sha256:0071b591cd831517c099444a2647d4ec1c24a984a67eadddbd7fc2c1ca70ba1f'}
+  - {seq: 0, filename: KR6c0039_000.yaml, hash: 'sha256:0528a690398da3450cbb5a42b81c3751c4fb1f7670b1bb9a2506d03cc11663ad'}
   - {seq: 1, filename: KR6c0039_001.yaml, hash: 'sha256:712e11cce229164d56cb507e01c5acc07b80f54ac58973fdf08e716be8a47c2d'}
   - {seq: 2, filename: KR6c0039_002.yaml, hash: 'sha256:a9656c94ffdf6243c218a97cfbed7f05ac8ba43ef513e4888cd8db52e1bb3c49'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6c0039_000.markers.yaml, hash: 'sha256:1579b9219227159a0dabdea365e82aed1947d95f5fb829f7810f255279343154'}
+  - {seq: 0, role: markers, filename: assets/KR6c0039_000.markers.yaml, hash: 'sha256:39d2a5f3817da80c9490512d3d000b22b0bada13d7a23a8ed3a345886cf6b605'}
   - {seq: 1, role: markers, filename: assets/KR6c0039_001.markers.yaml, hash: 'sha256:0bf978836bacdb8a1073507868e7d163c7d5a7b3f22d171a4fe45ccebf8fce1e'}
   - {seq: 2, role: markers, filename: assets/KR6c0039_002.markers.yaml, hash: 'sha256:0a6606ea6b2da96c41ec1739a2fda77f5dc72f2919232698fba71088a51aeac6'}
 table_of_contents:
@@ -39,7 +39,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6c0039_T_000-mulu-1
     span:
-    - front
+    - body
     - 0
     - 0
   label: 刊行金剛般若經贊述序
@@ -49,7 +49,7 @@ table_of_contents:
     seq: 0
     marker_id: KR6c0039_T_000-mulu-2
     span:
-    - front
+    - body
     - 392
     - 392
   label: 刻金剛般若經贊述序
@@ -75,7 +75,7 @@ table_of_contents:
   label: 金剛般若經贊述卷下
   type: juan
   level: 1
-hash: sha256:70d9a27907e914c0c945efb5124d84ec41d7dd3c5be6cb52a1c953eb771e06f2
+hash: sha256:58cd64f7264d4a28a5796494cae06bea690f94ecc227adab753ef0306112f9c3
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
